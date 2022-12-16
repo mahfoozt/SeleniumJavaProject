@@ -17,7 +17,7 @@ public void login() throws InterruptedException {
 			driver.manage().window().maximize();											//Maximize window 	                                               
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);				//Implicit wait		                                             
 	//Enter the User name
-			driver.findElementByXPath("//input[@id='username']").sendKeys("DemoSalesManager");	//Enter UserName by Attribute base XPath					                                             
+			driver.findElementByXPath("//input[@id='username']").sendKeys("DemoCSR");	//Enter UserName by Attribute base XPath					                                             
 	//enter password by using Collections XPath
 			driver.findElementByXPath("(//input[@class='inputLogin'])[2]").sendKeys("crmsfa");	//Enter password by Collections XPath
 			Thread.sleep(3000);																	//Explicitly wait until 3 second		                                               

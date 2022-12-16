@@ -22,7 +22,7 @@ public class DragAndDrop {
 		driver.get("https://jqueryui.com");	
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		Thread.sleep(2000);
+		Thread.sleep(2000);    
 //click Droppable button outside the frame
 		driver.findElementByXPath("//a[text()='Droppable']").click();
 //switching to frame

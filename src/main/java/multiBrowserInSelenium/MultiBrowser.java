@@ -14,15 +14,15 @@ public class MultiBrowser {
 
 	public static void main(String[] args) throws InterruptedException {
 //done ChromeDriver		
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();		
+		/*WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();	*/	
 //Done FireFox 		
 		//WebDriverManager.firefoxdriver().setup();
 		//WebDriver driver = new FirefoxDriver();
 
 //Done Edgedriver 
-		//WebDriverManager.edgedriver().setup();
-		//WebDriver driver = new EdgeDriver();
+		WebDriverManager.edgedriver().setup();
+		WebDriver driver = new EdgeDriver();
 //done InternetExplorer		
 		//WebDriverManager.iedriver().setup();
 		//WebDriver driver = new InternetExplorerDriver();
